@@ -23,3 +23,8 @@ services:
       DB_USER: smsd
       DB_PASS: password
       DB_HOST: db
+    devices:
+      - "${NAME_DEVICE_1}:/dev/mobile0"
+      #- "${NAME_DEVICE_2}:/dev/mobile1"
+    # environment:
+    #   - PIN1: 1234
