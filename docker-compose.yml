@@ -27,4 +27,8 @@ services:
       - "${NAME_DEVICE_1}:/dev/mobile0"
       #- "${NAME_DEVICE_2}:/dev/mobile1"
     # environment:
+      - TELEGRAM_BOT_TOKEN_1: xyz
+      - TELEGRAM_CHAT_ID_1: xyz
+      - MESSAGE_THREAD_ID_1: xyz
     #   - PIN1: 1234
+
