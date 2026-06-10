@@ -76,7 +76,7 @@ RunOnReceive = /app/on_receive
 
 {smsdrc_user_text}
 
-PhoneId = {id}"""
+PhoneID = {id}"""
 
     for i, dongle in enumerate(dongles):
         smsdrc_user_file = None
